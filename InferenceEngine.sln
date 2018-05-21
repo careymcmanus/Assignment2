@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2043
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InferenceEngine", "InferenceEngine\InferenceEngine.csproj", "{BAC4E569-2691-478A-B2C5-C4CBABA957B7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InferenceEngineTests", "InferenceEngineTests\InferenceEngineTests.csproj", "{60DA24CE-ECB5-4E93-83B4-AFCB8FA50F5E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BAC4E569-2691-478A-B2C5-C4CBABA957B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BAC4E569-2691-478A-B2C5-C4CBABA957B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BAC4E569-2691-478A-B2C5-C4CBABA957B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BAC4E569-2691-478A-B2C5-C4CBABA957B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60DA24CE-ECB5-4E93-83B4-AFCB8FA50F5E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60DA24CE-ECB5-4E93-83B4-AFCB8FA50F5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60DA24CE-ECB5-4E93-83B4-AFCB8FA50F5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60DA24CE-ECB5-4E93-83B4-AFCB8FA50F5E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F294FDFA-1B93-4724-83CA-E39268EFA1E6}
+	EndGlobalSection
+EndGlobal

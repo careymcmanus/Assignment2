@@ -1,0 +1,14 @@
+c:\users\carey mcmanus\source\repos\InferenceEngine\InferenceEngine\obj\Debug\InferenceEngine.csprojResolveAssemblyReference.cache
+c:\users\carey mcmanus\source\repos\InferenceEngine\InferenceEngine\obj\Debug\InferenceEngine.csproj.CoreCompileInputs.cache
+c:\users\carey mcmanus\source\repos\InferenceEngine\InferenceEngine\bin\Debug\InferenceEngine.exe.config
+c:\users\carey mcmanus\source\repos\InferenceEngine\InferenceEngine\bin\Debug\InferenceEngine.exe
+c:\users\carey mcmanus\source\repos\InferenceEngine\InferenceEngine\bin\Debug\InferenceEngine.pdb
+c:\users\carey mcmanus\source\repos\InferenceEngine\InferenceEngine\obj\Debug\InferenceEngine.exe
+c:\users\carey mcmanus\source\repos\InferenceEngine\InferenceEngine\obj\Debug\InferenceEngine.pdb
+D:\Documents\IntroAI\Inference\InferenceEngine\InferenceEngine\bin\Debug\InferenceEngine.exe.config
+D:\Documents\IntroAI\Inference\InferenceEngine\InferenceEngine\bin\Debug\InferenceEngine.exe
+D:\Documents\IntroAI\Inference\InferenceEngine\InferenceEngine\bin\Debug\InferenceEngine.pdb
+D:\Documents\IntroAI\Inference\InferenceEngine\InferenceEngine\obj\Debug\InferenceEngine.csprojResolveAssemblyReference.cache
+D:\Documents\IntroAI\Inference\InferenceEngine\InferenceEngine\obj\Debug\InferenceEngine.csproj.CoreCompileInputs.cache
+D:\Documents\IntroAI\Inference\InferenceEngine\InferenceEngine\obj\Debug\InferenceEngine.exe
+D:\Documents\IntroAI\Inference\InferenceEngine\InferenceEngine\obj\Debug\InferenceEngine.pdb

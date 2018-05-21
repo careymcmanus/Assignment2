@@ -1,0 +1,34 @@
+c:\users\carey mcmanus\source\repos\InferenceEngine\InferenceEngineTests\obj\Debug\InferenceEngineTests.csprojResolveAssemblyReference.cache
+c:\users\carey mcmanus\source\repos\InferenceEngine\InferenceEngineTests\obj\Debug\InferenceEngineTests.csproj.CoreCompileInputs.cache
+c:\users\carey mcmanus\source\repos\InferenceEngine\InferenceEngineTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+c:\users\carey mcmanus\source\repos\InferenceEngine\InferenceEngineTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+c:\users\carey mcmanus\source\repos\InferenceEngine\InferenceEngineTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+c:\users\carey mcmanus\source\repos\InferenceEngine\InferenceEngineTests\bin\Debug\InferenceEngineTests.dll
+c:\users\carey mcmanus\source\repos\InferenceEngine\InferenceEngineTests\bin\Debug\InferenceEngineTests.pdb
+c:\users\carey mcmanus\source\repos\InferenceEngine\InferenceEngineTests\bin\Debug\InferenceEngine.exe
+c:\users\carey mcmanus\source\repos\InferenceEngine\InferenceEngineTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+c:\users\carey mcmanus\source\repos\InferenceEngine\InferenceEngineTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+c:\users\carey mcmanus\source\repos\InferenceEngine\InferenceEngineTests\bin\Debug\InferenceEngine.pdb
+c:\users\carey mcmanus\source\repos\InferenceEngine\InferenceEngineTests\bin\Debug\InferenceEngine.exe.config
+c:\users\carey mcmanus\source\repos\InferenceEngine\InferenceEngineTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+c:\users\carey mcmanus\source\repos\InferenceEngine\InferenceEngineTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+c:\users\carey mcmanus\source\repos\InferenceEngine\InferenceEngineTests\obj\Debug\InferenceEngineTests.csproj.CopyComplete
+c:\users\carey mcmanus\source\repos\InferenceEngine\InferenceEngineTests\obj\Debug\InferenceEngineTests.dll
+c:\users\carey mcmanus\source\repos\InferenceEngine\InferenceEngineTests\obj\Debug\InferenceEngineTests.pdb
+D:\Documents\IntroAI\Inference\InferenceEngine\InferenceEngineTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+D:\Documents\IntroAI\Inference\InferenceEngine\InferenceEngineTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+D:\Documents\IntroAI\Inference\InferenceEngine\InferenceEngineTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+D:\Documents\IntroAI\Inference\InferenceEngine\InferenceEngineTests\bin\Debug\InferenceEngineTests.dll
+D:\Documents\IntroAI\Inference\InferenceEngine\InferenceEngineTests\bin\Debug\InferenceEngineTests.pdb
+D:\Documents\IntroAI\Inference\InferenceEngine\InferenceEngineTests\bin\Debug\InferenceEngine.exe
+D:\Documents\IntroAI\Inference\InferenceEngine\InferenceEngineTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+D:\Documents\IntroAI\Inference\InferenceEngine\InferenceEngineTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+D:\Documents\IntroAI\Inference\InferenceEngine\InferenceEngineTests\bin\Debug\InferenceEngine.pdb
+D:\Documents\IntroAI\Inference\InferenceEngine\InferenceEngineTests\bin\Debug\InferenceEngine.exe.config
+D:\Documents\IntroAI\Inference\InferenceEngine\InferenceEngineTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+D:\Documents\IntroAI\Inference\InferenceEngine\InferenceEngineTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+D:\Documents\IntroAI\Inference\InferenceEngine\InferenceEngineTests\obj\Debug\InferenceEngineTests.csprojResolveAssemblyReference.cache
+D:\Documents\IntroAI\Inference\InferenceEngine\InferenceEngineTests\obj\Debug\InferenceEngineTests.csproj.CoreCompileInputs.cache
+D:\Documents\IntroAI\Inference\InferenceEngine\InferenceEngineTests\obj\Debug\InferenceEngineTests.csproj.CopyComplete
+D:\Documents\IntroAI\Inference\InferenceEngine\InferenceEngineTests\obj\Debug\InferenceEngineTests.dll
+D:\Documents\IntroAI\Inference\InferenceEngine\InferenceEngineTests\obj\Debug\InferenceEngineTests.pdb
