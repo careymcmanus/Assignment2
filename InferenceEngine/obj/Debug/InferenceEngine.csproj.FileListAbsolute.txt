@@ -12,3 +12,10 @@ D:\Documents\IntroAI\Inference\InferenceEngine\InferenceEngine\obj\Debug\Inferen
 D:\Documents\IntroAI\Inference\InferenceEngine\InferenceEngine\obj\Debug\InferenceEngine.csproj.CoreCompileInputs.cache
 D:\Documents\IntroAI\Inference\InferenceEngine\InferenceEngine\obj\Debug\InferenceEngine.exe
 D:\Documents\IntroAI\Inference\InferenceEngine\InferenceEngine\obj\Debug\InferenceEngine.pdb
+D:\Documents\IntroAI\InferenceAssignment\Assignment2\InferenceEngine\obj\Debug\InferenceEngine.csprojResolveAssemblyReference.cache
+D:\Documents\IntroAI\InferenceAssignment\Assignment2\InferenceEngine\obj\Debug\InferenceEngine.csproj.CoreCompileInputs.cache
+D:\Documents\IntroAI\InferenceAssignment\Assignment2\InferenceEngine\obj\Debug\InferenceEngine.exe
+D:\Documents\IntroAI\InferenceAssignment\Assignment2\InferenceEngine\obj\Debug\InferenceEngine.pdb
+D:\Documents\IntroAI\InferenceAssignment\Assignment2\InferenceEngine\InferenceEngine.exe.config
+D:\Documents\IntroAI\InferenceAssignment\Assignment2\InferenceEngine\InferenceEngine.exe
+D:\Documents\IntroAI\InferenceAssignment\Assignment2\InferenceEngine\InferenceEngine.pdb

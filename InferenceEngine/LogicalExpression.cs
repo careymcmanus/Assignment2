@@ -30,9 +30,16 @@ namespace InferenceEngine
             }
         }
 
+        public LogicalExpression()
+        {
+
+        }
+
+
         public List<LogicalExpression> Children
         {
             get { return _children; }
+            set { _children = value; }
         }
 
         public void printInfo()
@@ -63,6 +70,7 @@ namespace InferenceEngine
         public string Connective
         {
             get { return _connective; }
+            set { _connective = value; }
         }
         public string Symbol
         {
@@ -79,8 +87,9 @@ namespace InferenceEngine
             int bracketCounter = 0;
             int operatorIndex = -1;
             bool trigger = true;
+            bool trigger2 = true;
             sentence.Trim();
-
+            Console.WriteLine("Initial Sentence: " + sentence);
             //Console.Write("OperatorIndex: "+ operatorIndex + "\n");
             for (int i = 0; i < sentence.Length; i++)
             {
@@ -96,28 +105,32 @@ namespace InferenceEngine
                     bracketCounter--;
                     //Console.WriteLine(bracketCounter);
                 }
-                else if ((c == '<' && c + 1 == '=' ) && bracketCounter == 0)
+                else if ((c == '<') && bracketCounter == 0)
                 {
                     //Console.WriteLine("bracketCounter should be 0: " + bracketCounter);
                     operatorIndex = i;
                     trigger = false;
+                    trigger2 = false;
                 }
-                else if ((c == '=' && c + 1 == '>') && bracketCounter == 0)
+                else if ((c == '=' && c + 1 == '>') && bracketCounter == 0 && trigger2)
                 {
                     operatorIndex = i;
                     trigger = false;
+                    trigger2 = false;
                 }
-                else if ((c == '&') && bracketCounter == 0 && trigger)
+                else if ((c == '&') && bracketCounter == 0 && trigger && trigger2)
                 {
                     operatorIndex = i;
                     trigger = false;
+                    trigger2 = false;
                 }
-                else if (c == '\\' && bracketCounter == 0 && trigger)
+                else if (c == '\\' && bracketCounter == 0 && trigger && trigger2)
                 {
                     operatorIndex = i;
                     trigger = false;
+                    trigger2 = false;
                 }
-                else if (c == '~' && bracketCounter == 0 && operatorIndex < 0 && trigger)
+                else if (c == '~' && bracketCounter == 0 && operatorIndex < 0 && trigger && trigger2)
                 {
                     operatorIndex = i;
                 }
@@ -140,7 +153,7 @@ namespace InferenceEngine
                 //Console.WriteLine(sentence);
                 if (sentence.ElementAt(operatorIndex) == '<')
                 {
-                    //Console.WriteLine("sentence: " + sentence);
+                    Console.WriteLine("sentence: " + sentence);
                     string first = sentence.Substring(0, operatorIndex);
                     string second = sentence.Substring(operatorIndex + 3);
                     first = first.Trim();

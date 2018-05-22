@@ -12,6 +12,11 @@ namespace InferenceEngine
         private KnowledgeBase _knowledgeBase;
         private string _query;
 
+        /*
+         * Constructor for the TruthTable Engine
+         * @param kb - A KnowledgeBase which contains the 
+         * @param query - A string containing the question to determine
+         */
         public TruthTable(KnowledgeBase kb, string query)
         {
             _knowledgeBase = kb;
@@ -92,7 +97,7 @@ namespace InferenceEngine
             {
                 model.ToList().ForEach(x => Console.WriteLine(x.Key + ": " + x.Value));
                 string P = symbols[0];
-                Console.WriteLine("symbol: " + P);
+                
                 symbols.RemoveAt(0);
                 return TT_Check_All(kb, alpha, new List<string>(symbols), extend(P, true, model)) && TT_Check_All(kb, alpha, new List<string>(symbols), extend(P, false, model));
             }
@@ -113,7 +118,7 @@ namespace InferenceEngine
         public bool PL_true(KnowledgeBase kb, Dictionary<string, bool> model)
         {
             bool finalResult = true;
-            Console.WriteLine("new model: ----------- ");
+            //Console.WriteLine("new model: ----------- ");
             foreach (Clause c in kb.Clauses)
             {
                 bool clauseResult = true;

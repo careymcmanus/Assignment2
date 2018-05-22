@@ -12,7 +12,7 @@ namespace InferenceEngine
         private string _query;
         private int _modelCount;
 
-        public ExtendedTruthTable(AdvancedKnowledgeBase kb, string query)
+        public ExtendedTruthTable(AdvancedKnowledgeBase kb, string query) 
         {
             _kb = kb;
             _query = query;

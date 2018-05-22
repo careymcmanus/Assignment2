@@ -30,16 +30,20 @@ namespace InferenceEngine
                     case ("FC"):
                         _engine = new ForwardChaining(_kb, _query);
                         break;
-                    case ("D"):
+                    case ("GTT"):
                         _engine = new ExtendedTruthTable(_akb, _query);
+                        Console.WriteLine(_engine);
                         break;
-                        //        default:
-                        //            throw new System.ArgumentException("No Valid Inference Method Given");
+                    case ("DPLL"):
+                        _engine = new DPLL();
+                        break;
+                    default:
+                        throw new System.ArgumentException("No Valid Inference Method Given");
                 }
 
 
             }
-
+   
                 _engine.Solve();
 
         }
@@ -64,7 +68,7 @@ namespace InferenceEngine
             string[] knowledge = text[1].Split(';');
             knowledge = knowledge.Take(knowledge.Count() - 1).ToArray();
             List<Clause> clauses = new List<Clause>();
-            if (solver != "D")
+            if (solver != "GTT")
             {
                 foreach (string s in knowledge)
                 {
