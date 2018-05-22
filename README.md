@@ -2,8 +2,8 @@
 Repository for Assignment 2 of COS30019 : Introduction to AI
 
 ## Running the Program
-To run the program type: \\
-InferenceEngine.exe <method> <testfile> \\
+To run the program type: <br>
+InferenceEngine.exe <method> <testfile> <br>
 Where the methods to choose from include:
 - Truthtable Checking : TT
 - Backwards Chaining : BC
@@ -21,8 +21,8 @@ Carey McManus - 7381247
 - Truth Table Checking for expressions of the form a\/b=>c; ~a; b; d<=>c; 
 
 ## Test Cases
-TELL\\
-p2=> p3; p3 => p1; c => e; b&e => f; f&g => h; p1=>d; p1&p3 => c; a; b; p2; \\
+TELL<br>
+p2=> p3; p3 => p1; c => e; b&e => f; f&g => h; p1=>d; p1&p3 => c; a; b; p2; <br>
 ASK \\
 d \\
 
