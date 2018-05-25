@@ -14,11 +14,14 @@ namespace InferenceEngine
         static string _query;
         static Engine _engine;
 
+        /*
+         * Main entry point for program.
+         */
         static void Main(string[] args)
         {
-
             if (ReadProblem(args[1], args[0]))
             {
+                //Determines which algorithm to use for solving problem
                 switch (args[0])
                 {
                     case ("TT"):
@@ -32,7 +35,6 @@ namespace InferenceEngine
                         break;
                     case ("GTT"):
                         _engine = new ExtendedTruthTable(_akb, _query);
-                        Console.WriteLine(_engine);
                         break;
                     case ("DPLL"):
                         _engine = new DPLL();
@@ -40,17 +42,22 @@ namespace InferenceEngine
                     default:
                         throw new System.ArgumentException("No Valid Inference Method Given");
                 }
-
-
             }
-   
-                _engine.Solve();
-
+            //Runs the selected engine.
+            _engine.Solve();
         }
 
+        /*
+         * Reads Problem File 
+         * @Param filename - string that gives name of file to read from
+         * @Param solver - string that tells reader what type of engine is being used. Changes
+         *      output if more advanced algorithms used.
+         */
         public static bool ReadProblem(string filename, string solver)
         {
             List<string> text = new List<string>();
+
+            //tries to read problem file, if it can't returns false
             try
             {
                 StreamReader reader = File.OpenText(filename);
@@ -62,13 +69,14 @@ namespace InferenceEngine
             }
             catch
             {
-                Console.WriteLine("Could not read file");
+                Console.WriteLine("Error: Could not read file");
                 return false;
             }
             string[] knowledge = text[1].Split(';');
             knowledge = knowledge.Take(knowledge.Count() - 1).ToArray();
             List<Clause> clauses = new List<Clause>();
-            if (solver != "GTT")
+            // If basic checking method 
+            if (solver != "GTT" || solver != "DPLL")
             {
                 foreach (string s in knowledge)
                 {
@@ -107,6 +115,7 @@ namespace InferenceEngine
 
                 return true;
             }
+            // if solving method more advanced clauses
             else
             {
                 List<LogicalExpression> kb = new List<LogicalExpression>(); 
