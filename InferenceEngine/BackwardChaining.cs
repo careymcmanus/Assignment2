@@ -6,6 +6,13 @@ using System.Threading.Tasks;
 
 namespace InferenceEngine
 {
+    /*
+     * Backward Chaining Algorithm Class
+     * Contains a Knowledge Base
+     * Contains a Query string
+     * Contains a List of known facts
+     * Contains a List of checked symbols
+     */
     public class BackwardChaining : Engine
     {
         private KnowledgeBase _knowledgeBase;
@@ -13,6 +20,12 @@ namespace InferenceEngine
         private List<string> _facts;
         private List<string> _checked = new List<string>();
 
+        /*
+         * Constructor for the Backward Chaining algorithm 
+         * @Param kb - A Knowledge Base
+         * @Param query - Query to check
+         * gets a list of facts from the knowledge base
+         */
         public BackwardChaining(KnowledgeBase kb, string query)
         {
             _knowledgeBase = kb;
@@ -20,6 +33,9 @@ namespace InferenceEngine
             _facts = kb.getFacts();
         }
 
+        /*
+         * Initializes an agenda stack to contain the initial query
+         */
         private Stack<string> initAgenda(string query)
         {
             Stack<string> agenda = new Stack<string>();
@@ -27,7 +43,10 @@ namespace InferenceEngine
             return agenda;
         }
 
-
+        /*
+         * Solve function calls the backward chaining algorithm
+         * Prints answer to screen.
+         */
         public override void Solve()
         {
             string facts = String.Join("; ", _facts.ToArray());
