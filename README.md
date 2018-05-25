@@ -41,7 +41,7 @@ ANSWER: False model count: 3
 ## Acknowledgements/Resources
 Artificial Intelligence - A Modern Approach, Stuart Russel and Peter Norvig <br>
 _This assisted in providing the explanations of the various algorithms particularly 
-the Truth Table Checker and the Forward Chaining algorithm <br>
+the Truth Table Checker and the Forward Chaining algorithm_ <br>
 
 Jordan <br>
 help me solve a particular problem with my truth table checker<br>
